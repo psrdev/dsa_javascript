@@ -39,5 +39,8 @@ const dvds = [dvd1, dvd2, dvd3, dvd4];
 // dvds[3] = dvd4;
 
 
-console.log(dvds[1].getInfo());
+// console.log(dvds[1]);
+for (let i = 0; i < dvds.length; i++) {
+    console.log(dvds[i].getTitle());
+}
 
